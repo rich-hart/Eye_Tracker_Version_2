@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>69CDEEB0-520E-43AB-819A-3BAE55881106</string>
+	<key>IDESourceControlProjectName</key>
+	<string>videoGrabberExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7136A43-4C32-4041-BC44-CADE7309B1A9</key>
+		<string>https://github.com/rich-hart/Eye_Tracker_Version_2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>of_v0.8.0_osx_release/apps/myApps/videoGrabberExample/videoGrabberExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7136A43-4C32-4041-BC44-CADE7309B1A9</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rich-hart/Eye_Tracker_Version_2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7136A43-4C32-4041-BC44-CADE7309B1A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7136A43-4C32-4041-BC44-CADE7309B1A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Eye_Tracking </string>
+		</dict>
+	</array>
+</dict>
+</plist>
