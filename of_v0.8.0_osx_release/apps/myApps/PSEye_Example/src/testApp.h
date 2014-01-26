@@ -25,4 +25,5 @@ class testApp : public ofBaseApp{
 	
 		int 				camWidth;
 		int 				camHeight;
+        float                 brightness;
 };

@@ -3,9 +3,11 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	camWidth = 640;
-	camHeight = 480;
+	camWidth = 320; //640
+	camHeight = 280;//480
 	
+    
+    brightness =0.4;
 	ps3eye.listDevices();
 	
 	ps3eye.setDesiredFrameRate(60);
@@ -15,7 +17,7 @@ void testApp::setup(){
 	ps3eye.setGain(1.0);
 	ps3eye.setShutter(1.0);
 	ps3eye.setGamma(0.4);
-	ps3eye.setBrightness(0.6);
+	ps3eye.setBrightness(brightness);
 	ps3eye.setContrast(1.0);
 	ps3eye.setHue(0.5);
 	
@@ -48,8 +50,18 @@ void testApp::draw(){
 
 //--------------------------------------------------------------
 void testApp::keyPressed  (int key){ 	
+    if(key == '-' && brightness>0){
+        brightness = brightness - .1;
+        ps3eye.setBrightness(brightness);
 
+    }
 	
+    
+    if(key == '=' && brightness<1.0){
+        brightness = brightness + .1;
+        ps3eye.setBrightness(brightness);
+        
+    }
 		
 }
 
